@@ -4,6 +4,7 @@ const entrypoints = [
 ];
 
 export default {
+  output: 'docs',
   domain: 'https://macloo.github.io/',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
