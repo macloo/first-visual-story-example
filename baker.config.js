@@ -4,11 +4,19 @@ const entrypoints = [
 ];
 
 export default {
-  domain: 'http://baker-example-page-template-production.s3-website-us-east-1.amazonaws.com/',
+  domain: 'https://macloo.github.io/',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,
-  pathPrefix: process.env.BAKER_PATH_PREFIX || process.env.DELIVERY_BASE_PATH || '/',
+  pathPrefix: '/first-visual-story-example/',
+};
+
+// domain: '',
+//   entrypoints: `scripts/${
+//     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
+//   }.js`,
+//   pathPrefix: process.env.BAKER_PATH_PREFIX || process.env.DELIVERY_BASE_PATH || '/',
+
 // An example of how creating dynamic pages, as described in the README
 // createPages(createPage, data) {
 //   const pageList = data.example;
@@ -19,4 +27,4 @@ export default {
 //     createPage(template, url, context);
 //   }
 // },
-};
+//};
