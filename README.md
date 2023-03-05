@@ -1,3 +1,9 @@
+# Disclaimer
+
+This is the result of working through the instructional doc with the original template, which is: 
+
+https://github.com/datadesk/baker-example-page-template 
+
 # baker-example-page-template
 
 A demonstration of how to build and publish pages with the [baker](https://github.com/datadesk/baker) build tool.
